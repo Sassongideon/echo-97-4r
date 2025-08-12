@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Video, Play } from 'lucide-react'
+import { Video, Play } from "lucide-react"
 
 export default function InterviewRolePlayVideoPage() {
   return (
@@ -14,9 +14,7 @@ export default function InterviewRolePlayVideoPage() {
               </div>
               <span className="text-2xl font-bold tracking-wider">ROLE-PLAY</span>
             </div>
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Interview Role-Play Video
-            </h1>
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6">Interview Role-Play Video</h1>
             <p className="text-xl text-blue-100 leading-relaxed">
               Watch our interactive interview simulation to better understand our hiring process.
             </p>
@@ -32,39 +30,32 @@ export default function InterviewRolePlayVideoPage() {
               <CardHeader className="bg-gradient-to-r from-electric-blue-500 to-blue-600 text-white rounded-t-lg">
                 <CardTitle className="text-2xl flex items-center gap-3">
                   <Play className="h-6 w-6" />
-                  Video Content
+                  Interview Role-Play Video
                 </CardTitle>
               </CardHeader>
-              <CardContent className="p-12 text-center">
+              <CardContent className="p-8">
                 <div className="space-y-6">
-                  <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center">
-                    <div className="text-center space-y-4">
-                      <div className="p-6 bg-white rounded-full shadow-lg mx-auto w-24 h-24 flex items-center justify-center">
-                        <Video className="h-12 w-12 text-electric-blue-500" />
-                      </div>
-                      <h3 className="text-xl font-semibold text-gray-700">
-                        Video Placeholder
-                      </h3>
-                      <p className="text-gray-500 max-w-md mx-auto">
-                        10-13 minute interview role-play video will be embedded here using ivid2
+                  {/* Embedded Video */}
+                  <div className="text-center">
+                    <h3 className="text-2xl font-semibold text-navy-900 mb-6">Interview Role-Play Video</h3>
+                    <div className="p-6 bg-blue-50 rounded-lg">
+                      <p className="text-gray-700 mb-4">
+                        Watch the interview role-play video to better understand our hiring process:
                       </p>
+                      <a
+                        href="https://ivid2.np.edu.sg/media/TB07_Sasson+Gideon+Saminathan_PCUL+IA2+Interview+Role-play+Video/1_va2aul43"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 bg-electric-blue-500 hover:bg-electric-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                      >
+                        <Video className="h-5 w-5" />
+                        Watch Interview Role-Play Video
+                      </a>
                     </div>
                   </div>
-                  
-                  <div className="p-6 bg-blue-50 rounded-lg">
-                    <h3 className="text-xl font-semibold text-navy-900 mb-3">
-                      Interactive Interview Experience
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      This video will showcase a realistic interview scenario for the Radio Jockey position, 
-                      demonstrating the types of questions asked, expected responses, and the overall 
-                      interview atmosphere at Echo 97. It will help candidates understand our company 
-                      culture and prepare effectively for their actual interview.
-                    </p>
-                  </div>
-                  
-                  <div className="text-sm text-gray-500">
-                    <p>Video content will be added by Sasson Gideon (Ngee Ann Poly, Class: TB07)</p>
+
+                  <div className="text-center text-sm text-gray-500 pt-6 border-t">
+                    <p>Video created by Sasson Gideon Saminathan (Class: TB07)</p>
                   </div>
                 </div>
               </CardContent>
