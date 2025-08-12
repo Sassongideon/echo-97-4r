@@ -36,7 +36,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-5 w-5 text-electric-blue-400" />
-                <span>Singapore Broadcasting Centre</span>
+                <span>1 Stars Ave, Singapore 138507</span>
               </div>
             </div>
           </div>

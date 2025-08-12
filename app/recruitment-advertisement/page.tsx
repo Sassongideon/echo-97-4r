@@ -141,7 +141,7 @@ export default function RecruitmentAdvertisementPage() {
                       <MapPin className="h-8 w-8 text-electric-blue-600" />
                     </div>
                     <h4 className="font-semibold text-navy-900">Location</h4>
-                    <p className="text-gray-600">Singapore CBD</p>
+                    <p className="text-gray-600">1 Stars Ave, Singapore 138507</p>
                   </div>
                   <div className="text-center">
                     <div className="p-3 bg-electric-blue-100 rounded-full w-16 h-16 mx-auto mb-3 flex items-center justify-center">
